@@ -54,6 +54,9 @@ All specifications are organized under `specs/`:
 
 Update and expand these specifications as needed. Example:
 
+
+
+```plaintext
 We are going to create an AI coding assistant command line application in rust
 
 The AI coding assistant is called "groundhog".
@@ -65,10 +68,12 @@ Use the clap cargo create for command line parsing.
 
 The first operation is
 
-```plaintext
+"$ groundhogexplain"
+
 When groundhog explain is invoked it prints hello world.
 
 IMPORTANT: Write up the specifications into the "specs/" folder with each domain topic (including technical topic) as a seperate markdown file. Create a "SPECS.md" in the root of the directory which is an overview document that contains a table that links to all the specs.
+```
 
 ### Step 2: Bootstrapping the Project
 
@@ -76,7 +81,6 @@ Run Cursor with the provided specifications:
 
 - Launch multiple Cursor IDE sessions simultaneously, each handling separate directories (use multi-boxing).
 - Cursor agents operate independently in isolated directories, automatically committing incremental changes based on rules defined in `.cursor/`.
-```
 
 ### Step 3: Building and Validating the Project
 
