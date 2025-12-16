@@ -1,0 +1,17 @@
+You need to first create a document that describes:
+
+The current situation
+- The problement statement
+- The cause
+- How the resolution of the task can be considered a succes
+- Important notes
+
+Then in a second time, you need to create a Technical dive in document that explains the why and the how the task is going to be solved. It needs to contains 3 phases:
+
+- Investigation
+- Conception
+- Validation. It should provide all the context and material needed to understand what we plan on building.
+
+In a third time, you have to create an implementation plan file that should contain the whole plan to resolve the task.
+
+You are going to put those file in a .jules/{task_name} folder
